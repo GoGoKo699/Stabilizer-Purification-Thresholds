@@ -12,6 +12,12 @@ This repository studies the minimum fixed input-copy budget for universal fideli
 - Use science/interpretation.md for fixed versus expected copy costs and the distinction between output averages and individual measurement records.
 - Use references/related-work.md and references/bibliography.json for primary-source attribution and the precise comparison with prior work.
 - Use verification/README.md for executable checks and their tested scope.
+- Use learning/README.md for the study route, learning/milestones.md for the settled M01–M30 understanding map, and learning/nielsen-chuang-bridge.md for the single educational anchor and notation bridge.
+- Use verification/hosted/README.md for revision-bound checks of actual GitHub mathematical rendering.
+
+## Reading intentions
+
+For the physical story, follow the model, constructions and interpretation. For the theorem, follow the model and both converse proofs, then inspect the attaining maps. For study, start with the Nielsen–Chuang bridge and follow the milestone dependencies into the authoritative science pages. For reproduction, use the verification guide and recorded outputs. The educational anchor is Nielsen and Chuang, Quantum Computation and Quantum Information, 10th Anniversary Edition (2010); research citations supply attribution and theorem context.
 
 ## Essential distinctions
 

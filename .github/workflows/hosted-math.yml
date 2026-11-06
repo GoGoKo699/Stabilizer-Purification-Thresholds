@@ -1,0 +1,55 @@
+name: Hosted mathematics
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hosted-math-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      SOURCE_REVISION: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - name: Read the exact public source revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$SOURCE_REVISION" =~ ^[0-9a-f]{40}$ ]]
+          git init --quiet source
+          git -C source fetch --quiet --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" "$SOURCE_REVISION"
+          git -C source checkout --quiet --detach "$SOURCE_REVISION"
+      - name: Install pinned rendering dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm install --prefix "$RUNNER_TEMP/hosted-math-deps" --ignore-scripts --no-audit --no-fund playwright@1.56.1 mathjax-full@3.2.1
+          "$RUNNER_TEMP/hosted-math-deps/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Compare actual GitHub mathematics with source
+        working-directory: source
+        shell: bash
+        run: |
+          set -euo pipefail
+          export NODE_PATH="$RUNNER_TEMP/hosted-math-deps/node_modules"
+          node verification/hosted/capture_hosted_math.cjs \
+            --root "$PWD" \
+            --repository "$GITHUB_REPOSITORY" \
+            --revision "$SOURCE_REVISION" \
+            --contract verification/hosted/math-contract.json \
+            --output "$RUNNER_TEMP/hosted-math-evidence"
+      - name: Retain review evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: hosted-math-${{ env.SOURCE_REVISION }}
+          path: ${{ runner.temp }}/hosted-math-evidence
+          if-no-files-found: error
+          retention-days: 14

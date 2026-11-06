@@ -82,6 +82,21 @@
       "doi": "10.1098/rspa.2019.0251",
       "arxiv": "1901.03322v2",
       "used_for": "Theorem 3.1: Choi-state characterization of completely stabilizer-preserving channels."
+    },
+    {
+      "id": "nielsenchuang2010",
+      "type": "book",
+      "authors": [
+        "Michael A. Nielsen",
+        "Isaac L. Chuang"
+      ],
+      "title": "Quantum Computation and Quantum Information",
+      "edition": "10th Anniversary Edition",
+      "year": 2010,
+      "publisher": "Cambridge University Press",
+      "doi": "10.1017/CBO9780511976667",
+      "url": "https://doi.org/10.1017/CBO9780511976667",
+      "used_for": "Single educational anchor: quantum operations (8.2.4), depolarization (8.3.4), root fidelity (9.2.2), stabilizer states, evolution and measurement (10.5.1–10.5.4). The project supplies the Choi-cone and copy-threshold arguments."
     }
   ]
 }

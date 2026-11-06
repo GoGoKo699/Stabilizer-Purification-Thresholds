@@ -6,13 +6,13 @@ The four-versus-five boundary separates two ways of using incomplete information
 
 The target is the original unknown pure state. The protocol is not asked to create a fixed resource state. Its score measures how well the returned qubit approximates that direction.
 
-In the proved pointwise interval, every input lies inside the single-qubit stabilizer octahedron. Indeed, a Bloch vector $r\mathbf u$ is in that octahedron when its component absolute values sum to at most one, and $r\sum_a|u_a|\le r\sqrt3<1$. The accepted outputs are mixtures of Pauli eigenstates. Universal improvement in this regime therefore does not require nonstabilizer inputs or outputs.
+In the proved pointwise interval, every input lies inside the single-qubit stabilizer octahedron. Indeed, a Bloch vector $`r\mathbf u`$ is in that octahedron when its component absolute values sum to at most one, and $`r\sum_a|u_a|\le r\sqrt3\lt 1`$. The accepted outputs are mixtures of Pauli eigenstates. Universal improvement in this regime therefore does not require nonstabilizer inputs or outputs.
 
 This observation explains the role of the task: several weak signals about an unknown direction can improve its estimate and the prepared approximation. The stabilizer restriction still matters. The converses show that one, two or three inputs cannot give a positive accepted-data Haar gain, and four cannot do so when every run must return an output.
 
 ## Postselection and the physical budget
 
-The bare four-copy protocol consumes four noisy specimens on every attempted batch. Its success is bounded away from zero uniformly in the target direction, so the gain is not obtained only in a vanishing-success limit. Independent repetition until acceptance costs an expected $4/p_{\mathbf u}\le32$ raw specimens for a fixed direction. This is an expectation, not a fixed upper bound on the number consumed in a particular run.
+The bare four-copy protocol consumes four noisy specimens on every attempted batch. Its success is bounded away from zero uniformly in the target direction, so the gain is not obtained only in a vanishing-success limit. Independent repetition until acceptance costs an expected $`4/p_{\mathbf u}\le32`$ raw specimens for a fixed direction. This is an expectation, not a fixed upper bound on the number consumed in a particular run.
 
 The deterministic protocol consumes five specimens per batch and always returns a qubit. Its gain is smaller because rejected four-copy events contribute only the original fidelity through the fifth input. Thus the number four is the minimum size of an accepted-or-rejected batch, not an assertion that repeating the heralded protocol uses fewer inputs per delivered output than the deterministic construction.
 
@@ -30,6 +30,6 @@ The converse uses an easier task: improve the success-weighted Haar score. If ev
 
 The old unanimity mechanism supplies achievability once its Pauli-axis implementation is written explicitly. The new lower bounds apply to arbitrary coherent maps in the stabilizer Choi cone, not only to local measurement-and-preparation strategies. A state-estimation construction alone cannot establish those converses.
 
-The three-copy argument combines a stabilizer pair-correlation limit with the two endpoint values of an affine polynomial in $r^2$. The four-copy deterministic argument uses an additional four-body correlation that trace preservation forces to vanish. These are the exact restrictions that meet the four- and five-input constructions.
+The three-copy argument combines a stabilizer pair-correlation limit with the two endpoint values of an affine polynomial in $`r^2`$. The four-copy deterministic argument uses an additional four-body correlation that trace preservation forces to vanish. These are the exact restrictions that meet the four- and five-input constructions.
 
 The theorem closes the minimum-copy question at its stated onset. It leaves the full fidelity-versus-success frontier and the behavior at other polarizations as distinct questions. The [related-work account](../references/related-work.md) explains how this scope relates to estimation with abstention and to existing two-copy resource laws.

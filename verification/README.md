@@ -2,6 +2,8 @@
 
 The verification scripts test the explicit quantum maps, exact moment coefficients and feasible Choi witnesses. The universal gain and the stabilizer-ray inequalities are proved in the [scientific account](../science/README.md); finite samples do not establish those claims by themselves.
 
+The separate [hosted mathematics check](hosted/README.md) compares equations on actual GitHub pages with a pinned source revision and retains screenshots for visual review.
+
 ## Run
 
 The recorded runs used Python 3.12.14, NumPy 2.3.5 and SymPy 1.14.0. From the repository root:
@@ -40,7 +42,7 @@ At retained polarization one third, the construction report checks:
 
 The three-copy endpoint witness has eigenvalues one fifth, with multiplicity five, and zero, with multiplicity eleven. The four-body input operator, including the identity output factor, has eigenvalues three with multiplicity eight and minus one with multiplicity twenty-four.
 
-The converse checks also include a physical zero-success boundary example: project the first two inputs onto the singlet and return the third. Its average success is $(1-r^2)/4$, which vanishes on identical pure inputs. This confirms why the heralded proof uses an unnormalized positive endpoint witness.
+The converse checks also include a physical zero-success boundary example: project the first two inputs onto the singlet and return the third. Its average success is $`(1-r^2)/4`$, which vanishes on identical pure inputs. This confirms why the heralded proof uses an unnormalized positive endpoint witness.
 
 ## Source comparison and interpretation
 
