@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 3,
+      "source_sha256": "3f5e6f07808af04850316f9b76410c4cb33d7631075405dc53c747fc12e0a857",
+      "required_text": [
+        "0<r<",
+        "13",
+        "0.45946"
+      ]
+    },
+    {
+      "path": "learning/README.md",
+      "index": 5,
+      "source_sha256": "6282719c8488806bf654de7efc13ff3a4b3724709fc1cabc0d5073db3595195a",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/milestones.md",
+      "index": 5,
+      "source_sha256": "9befa5cc43f0655c30f589465727e15cf38f951a23e73b9859d7b70af1289589",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 12,
+      "source_sha256": "530ad881692fe75847e35a9d62fd9d5e4a5ae22c537c2548d44e8d3606e2a979",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 13,
+      "source_sha256": "aafabc32a8b871c8b7bfa4f1fe34adb5d6ee1b4cf93fc9ab66347193ddebf078",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 14,
+      "source_sha256": "ec415dabbb6860bc8f205e46bc94b2f73f9294d73ab9c5492a9cf78ae29fdb90",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 19,
+      "source_sha256": "a5d6db07497d599f5851cf3192816c783b792f32f10f609ab93dd7f84d3fd50a",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 35,
+      "source_sha256": "8b8cd56be9f5f1bdb6461941c832f0d7911ae954f693d7976b99f690890328fe",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 68,
+      "source_sha256": "c9180aa28fd6a64024fde4a49a812be1e4e4a2ff4c1e28f10e42bef1df5b63bf",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 69,
+      "source_sha256": "80aea490d3e8fa3e217396361df4b500e8f9e3c6d573fca1fd6c33ef943f5b7c",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 73,
+      "source_sha256": "41ea83c9da014d37f29f9fa2f4be4e6c6bbcb6ffde0a8cedb1817f8550ac7c7d",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "learning/nielsen-chuang-bridge.md",
+      "index": 75,
+      "source_sha256": "2bccf310fc0a91e2a9410572608763afd79f4b512a9ffa517aad0f510a2f0ec3",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/constructions.md",
+      "index": 4,
+      "source_sha256": "3f15c429d0c37dbdb4717b48eab69b21d188ca617661a262f56d31151ed9f45e",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/deterministic-converse.md",
+      "index": 9,
+      "source_sha256": "b8656afbb25ce8328616ee9c93352cfb9e635ceafb29ae2b16a220a21a644650",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/deterministic-converse.md",
+      "index": 20,
+      "source_sha256": "785d9637d5a0edc1e126ee91997ac2b02ce7a9dd641b95602f3214ba9e499470",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/deterministic-converse.md",
+      "index": 21,
+      "source_sha256": "5b128147a490a45a8c8173928d13a57ae0c4685b32fc71a8aace60e137b53853",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/deterministic-converse.md",
+      "index": 23,
+      "source_sha256": "9df9370c7e317c0fc2fad682528a799e5eab1957e87257eb75789a787bee6c23",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/deterministic-converse.md",
+      "index": 26,
+      "source_sha256": "e3e13d355b3cdc6c75f1fc261fbf672ed1d2697f8d13e18dd30df91a52abe496",
+      "required_text": [
+        "B≤3+D",
+        "(D10)"
+      ]
+    },
+    {
+      "path": "science/deterministic-converse.md",
+      "index": 91,
+      "source_sha256": "ab4506e7ee349af15287755b1e7a1778747b8eb43bdcba33a570faa7d52dec94",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 5,
+      "source_sha256": "3444fdeedee94a2fd3b2b85589912f04ea43ef615b8f0df458278012f96c3b51",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 9,
+      "source_sha256": "a8a2a31a69357357845877e9cbc1c88cfe2340793e2b4d79a4336e6fb208af30",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 24,
+      "source_sha256": "c13a2b8818c85e8b8c6e7ebdf106e717e85581cb3161c52ccc00822449424491",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 25,
+      "source_sha256": "7971e5b178636afddcafad49e6931ca3c9bba5b9e55f914db077b8e3fe994a34",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 42,
+      "source_sha256": "9df9370c7e317c0fc2fad682528a799e5eab1957e87257eb75789a787bee6c23",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 60,
+      "source_sha256": "87c7132f6e3b730ac7cc64a5666f76c3f64498eb3aeb089e5478f1ec9b866591",
+      "required_text": [
+        "B3",
+        "≤3",
+        "(H15)"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 74,
+      "source_sha256": "f0d80095259eea8384a81e9af31cf623f7d160410e7beea91f02dc2ec0698fc4",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 82,
+      "source_sha256": "aa4d150fa942dd84c82ff81c9d0ee0c559677ca50133d6fb1eefcb9619cf6ea0",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 85,
+      "source_sha256": "b679343ded856c91a724925a31456385b70aea019e8044a236cb6b432cd3d63c",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/heralded-converse.md",
+      "index": 89,
+      "source_sha256": "f70c7032b1211d520c75228ada5a4d0e3c661379078c60f2b4974f9a19d26c4d",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 2,
+      "source_sha256": "28668486fc68c2ea6e4603fea45ccaecfb8848b86325516306e1ff37a5076874",
+      "required_text": [
+        "0<r<1",
+        "I+r"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 13,
+      "source_sha256": "abbb5268c93b2ca8eb3f7f3510a2a4515902298a64dc0caa83a6485972de5aa7",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 22,
+      "source_sha256": "1b7089bd23c57337f851b6e222355b1ec44bd63c3ea30e39caf4fd476ecd1d70",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 23,
+      "source_sha256": "a73291adde5028695d76b72d0b4db2c7c70edc7b95e331062570d29aa3ff41fc",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 24,
+      "source_sha256": "ff0c7d67c9d035dd41da1a3c560ddb2336ac214113cd2684d330b6fe859e7e1c",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 25,
+      "source_sha256": "79fb517ed45bfc5ec7a9bbff3273e42a1c9ef35deec19095bd05570643e2a4c8",
+      "required_text": [
+        "tr"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 39,
+      "source_sha256": "b9964af98d995d39d5ad4ec3335a6a8486f3289c47f422bad1fadf1940438d99",
+      "required_text": [
+        "0<",
+        "p",
+        "<1"
+      ]
+    },
+    {
+      "path": "science/model-and-results.md",
+      "index": 42,
+      "source_sha256": "c7518dcd420ac2b7bb6bd4aa8a515d2c031601291e9bc635d412acc3db1bd62b",
+      "required_text": [
+        "tr"
+      ]
+    }
+  ]
+}
