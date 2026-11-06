@@ -9,7 +9,7 @@ The input is $`n`$ independent copies of
 \qquad
 \psi_{\mathbf u}=\frac{I+\mathbf u\cdot\boldsymbol\sigma}{2},
 \qquad \mathbf u\in S^2,\quad 0\lt r\lt 1.
-\tag{D1}
+\qquad\text{(D1)}
 ```
 
 The unknown direction $`\mathbf u`$ specifies the target pure state. An unprocessed input has fidelity $`F_0(r)=(1+r)/2`$. A deterministic protocol is a completely positive, trace-preserving map $`\mathcal E`$ from the $`n`$ inputs to one output qubit. It may depend on $`r`$, but not on $`\mathbf u`$. Its Haar-average fidelity is
@@ -19,7 +19,7 @@ F_{\mathcal E}(r)=\int_{S^2}
 \mathrm{tr}\!\left[
 \psi_{\mathbf u}\mathcal E(\rho_{\mathbf u}(r)^{\otimes n})
 \right]d\mu(\mathbf u),
-\tag{D2}
+\qquad\text{(D2)}
 ```
 
 with normalized uniform measure $`\mu`$. An output is returned on every run; there is no postselection in (D2).
@@ -30,14 +30,14 @@ As in the heralded setting, the free class is specified by a Choi operator in th
 
 ```math
 F_{\mathcal E}(r)\le\frac{1+r}{2}.
-\tag{D3}
+\qquad\text{(D3)}
 ```
 
 Returning one input attains equality. In particular, deterministic processing of at most four copies cannot strictly improve fidelity for every direction. An ordinary five-copy stabilizer protocol does improve every direction for
 
 ```math
 0\lt r\lt r_*:=\sqrt{-7+2\sqrt{13}}.
-\tag{D4}
+\qquad\text{(D4)}
 ```
 
 Thus the exact deterministic minimum is five throughout this interval, whereas the exact heralded minimum there is four. These are copy thresholds for the existence of universal gain, not a classification at every polarization.
@@ -53,7 +53,7 @@ J=(\mathrm{id}\otimes\mathcal E)
 \bigl(|\Omega_4\rangle\langle\Omega_4|\bigr),
 \qquad
 |\Omega_4\rangle=\sum_{x\in\{0,1\}^4}|x\rangle|x\rangle.
-\tag{D5}
+\qquad\text{(D5)}
 ```
 
 For input $`X`$ and output observable $`Y`$,
@@ -61,7 +61,7 @@ For input $`X`$ and output observable $`Y`$,
 ```math
 \mathrm{tr}[Y\mathcal E(X)]
 =\mathrm{tr}[J(X^T\otimes Y)].
-\tag{D6}
+\qquad\text{(D6)}
 ```
 
 Trace preservation gives
@@ -71,7 +71,7 @@ Trace preservation gives
 \qquad \mathrm{tr}J=16,
 \qquad j:=J/16,
 \qquad \mathrm{tr}_oj=I_{1\cdots4}/16.
-\tag{D7}
+\qquad\text{(D7)}
 ```
 
 The normalized state $`j`$ is a five-qubit stabilizer mixture. We use $`\langle O\rangle=\mathrm{tr}(jO)`$, with identity factors implicit, and
@@ -79,7 +79,7 @@ The normalized state $`j`$ is a five-qubit stabilizer mixture. We use $`\langle 
 ```math
 \sigma_a^T=t_a\sigma_a,
 \qquad t_x=t_z=1,\quad t_y=-1.
-\tag{D8}
+\qquad\text{(D8)}
 ```
 
 ## A five-qubit stabilizer inequality
@@ -97,14 +97,14 @@ K_a&=\sigma_a^{(1)}\sigma_a^{(2)}
 \qquad B=\langle\mathsf B_4\rangle,
 \quad D=\langle\mathsf D\rangle.
 \end{aligned}
-\tag{D9}
+\qquad\text{(D9)}
 ```
 
 **Lemma D1.** For every five-qubit stabilizer mixture,
 
 ```math
 B\le3+D.
-\tag{D10}
+\qquad\text{(D10)}
 ```
 
 This is an expectation inequality on the stabilizer set; it is not asserted as an operator inequality on all five-qubit states.
@@ -114,7 +114,7 @@ This is an expectation inequality on the stabilizer set; it is not asserted as a
 ```math
 \mathsf D\ge-I,
 \qquad D\ge-1
-\tag{D11}
+\qquad\text{(D11)}
 ```
 
 for every quantum state. This proves (D10) whenever $`B\le2`$.
@@ -131,7 +131,7 @@ Put
 ```math
 P_i=\sigma_a^{(i)}\sigma_a^{(o)},
 \qquad c_i=t_a\langle P_i\rangle\in\{-1,0,1\}.
-\tag{D12}
+\qquad\text{(D12)}
 ```
 
 Then $`B=\sum_i c_i`$ is an integer at most four. After the already settled case $`B\le2`$, only the following two cases remain.
@@ -140,7 +140,7 @@ If $`B=3`$, exactly three of the $`c_i`$ equal $`+1`$, and the remaining one is 
 
 ```math
 \langle K_a\rangle=t_a\langle P_\ell\rangle=0.
-\tag{D13}
+\qquad\text{(D13)}
 ```
 
 For either other axis $`b\ne a`$, $`K_b`$ anticommutes with any of the three present pair Paulis $`P_i`$, so $`\langle K_b\rangle=0`$. It follows that $`D=0`$, and (D10) is saturated.
@@ -150,7 +150,7 @@ If $`B=4`$, all four $`c_i`$ equal $`+1`$. Now
 ```math
 K_a=\prod_{i=1}^4P_i,
 \qquad \langle K_a\rangle=t_a^4=1.
-\tag{D14}
+\qquad\text{(D14)}
 ```
 
 The two perpendicular four-input strings again have zero expectation by anticommutation. Hence $`D=1`$, and (D10) is again saturated. The factor $`t_y=-1`$ causes no exception: it appears four times in (D14).
@@ -161,7 +161,7 @@ For a channel, (D7) gives $`D=0`$, since each $`K_a`$ is a nonidentity input-onl
 
 ```math
 B\le3.
-\tag{D15}
+\qquad\text{(D15)}
 ```
 
 This use of the maximally mixed input Choi marginal is the step that distinguishes deterministic processing from heralded processing.
@@ -173,7 +173,7 @@ For completeness, define the input-only operators
 ```math
 \mathsf A_4=\sum_{1\le i\lt k\le4}\sum_{a=x,y,z}
 \sigma_a^{(i)}\sigma_a^{(k)}
-\tag{D16}
+\qquad\text{(D16)}
 ```
 
 and
@@ -185,7 +185,7 @@ and
 &+\sigma_a^{(1)}\sigma_b^{(2)}\sigma_a^{(3)}\sigma_b^{(4)}\\
 &+\sigma_a^{(1)}\sigma_b^{(2)}\sigma_b^{(3)}\sigma_a^{(4)}\bigr).
 \end{aligned}
-\tag{D17}
+\qquad\text{(D17)}
 ```
 
 The coefficient involving three inputs and the output is
@@ -197,7 +197,7 @@ The coefficient involving three inputs and the output is
 t_b\sigma_a^{(i)}\sigma_a^{(\ell)}
 \sigma_b^{(k)}\sigma_b^{(o)},
 \qquad \{i,\ell\}=T\setminus\{k\}.
-\tag{D18}
+\qquad\text{(D18)}
 ```
 
 There are four input triples and three ways to pair the output index with an input index in each triple. The sums in (D17) and (D18) retain all three fourth-moment pairings when $`a=b`$, as required.
@@ -210,7 +210,7 @@ Using
 \int u_a u_b u_c u_d\,d\mu
 =\frac{\delta_{ab}\delta_{cd}+\delta_{ac}\delta_{bd}
 +\delta_{ad}\delta_{bc}}{15},
-\tag{D19}
+\qquad\text{(D19)}
 ```
 
 and vanishing odd moments, direct expansion yields the operator identity
@@ -225,7 +225,7 @@ I+\frac{r^2}{3}\mathsf A_4+\frac{r^4}{15}\mathsf T_4
 +\frac r3\mathsf B_4+\frac{r^3}{15}\mathsf C_4
 \right].
 \end{aligned}
-\tag{D20}
+\qquad\text{(D20)}
 ```
 
 The transpose signs on inputs paired together cancel. The input paired with the output supplies the remaining $`t_b`$ in (D18). No term of order $`r^4`$ can couple to the output Bloch vector: it would contain an odd fifth sphere moment.
@@ -235,7 +235,7 @@ All terms in $`\mathsf A_4`$ and $`\mathsf T_4`$ are nonidentity input-only Paul
 ```math
 F_{\mathcal E}(r)=\mathrm{tr}[JQ_4(r)]
 =\frac12+\frac B6r+\frac C{30}r^3.
-\tag{D21}
+\qquad\text{(D21)}
 ```
 
 ## Endpoint interpolation and equality
@@ -247,14 +247,14 @@ F_{\mathcal E}(r)-\frac{1+r}{2}
 =\frac r2 q(r^2),
 \qquad
 q(s)=\left(\frac B3-1\right)+\frac C{15}s.
-\tag{D22}
+\qquad\text{(D22)}
 ```
 
 The correlation bound (D15) gives $`q(0)\le0`$. At $`r=1`$, complete positivity and trace preservation imply that $`\mathcal E(\psi_{\mathbf u}^{\otimes4})`$ is a density operator for each direction. Its fidelity with $`\psi_{\mathbf u}`$ is at most one. Thus
 
 ```math
 q(1)=2\bigl[F_{\mathcal E}(1)-1\bigr]\le0.
-\tag{D23}
+\qquad\text{(D23)}
 ```
 
 Equivalently, this endpoint follows by taking the Choi expectation of the positive operator

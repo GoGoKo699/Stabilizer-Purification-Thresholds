@@ -110,7 +110,7 @@
     {
       "path": "science/deterministic-converse.md",
       "index": 9,
-      "source_sha256": "8eb28fe8c8666b6d951f55516f8081cc1764792915c17478742ef2b445ae3469",
+      "source_sha256": "b8656afbb25ce8328616ee9c93352cfb9e635ceafb29ae2b16a220a21a644650",
       "required_text": [
         "tr"
       ]
@@ -118,7 +118,7 @@
     {
       "path": "science/deterministic-converse.md",
       "index": 20,
-      "source_sha256": "6ec00f3f0e7068f5fda1fd01f778b5576ab4fc73a9875d44a4c3e15f42b94628",
+      "source_sha256": "785d9637d5a0edc1e126ee91997ac2b02ce7a9dd641b95602f3214ba9e499470",
       "required_text": [
         "tr"
       ]
@@ -126,7 +126,7 @@
     {
       "path": "science/deterministic-converse.md",
       "index": 21,
-      "source_sha256": "563ea33f352da627e508d51d50757626674abcd7c3a8283d01943eeb79262275",
+      "source_sha256": "5b128147a490a45a8c8173928d13a57ae0c4685b32fc71a8aace60e137b53853",
       "required_text": [
         "tr"
       ]
@@ -142,7 +142,7 @@
     {
       "path": "science/deterministic-converse.md",
       "index": 26,
-      "source_sha256": "7925c3a48db71cc4c1e1b7082261ab067d700c9f5bb5e67f3b3882782d4c26bd",
+      "source_sha256": "e3e13d355b3cdc6c75f1fc261fbf672ed1d2697f8d13e18dd30df91a52abe496",
       "required_text": [
         "B≤3+D",
         "(D10)"
@@ -151,7 +151,7 @@
     {
       "path": "science/deterministic-converse.md",
       "index": 91,
-      "source_sha256": "d841d964b6257d48c3b2763f4974bb2625a45d31925253fd9ed93d7092313e7d",
+      "source_sha256": "ab4506e7ee349af15287755b1e7a1778747b8eb43bdcba33a570faa7d52dec94",
       "required_text": [
         "tr"
       ]
@@ -159,7 +159,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 5,
-      "source_sha256": "c8346c152acc67b6863e70365b5e4b50d6bca519843ec15f69d73d2420174b4d",
+      "source_sha256": "3444fdeedee94a2fd3b2b85589912f04ea43ef615b8f0df458278012f96c3b51",
       "required_text": [
         "tr"
       ]
@@ -167,7 +167,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 9,
-      "source_sha256": "917907804435bb02a03963775b2f95668e06debe031a0fc709591de996c5e1a8",
+      "source_sha256": "a8a2a31a69357357845877e9cbc1c88cfe2340793e2b4d79a4336e6fb208af30",
       "required_text": [
         "tr"
       ]
@@ -175,7 +175,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 24,
-      "source_sha256": "36f58508bcf07720647173a8c05342c385a74848761b4b8ab9366e817ee11629",
+      "source_sha256": "c13a2b8818c85e8b8c6e7ebdf106e717e85581cb3161c52ccc00822449424491",
       "required_text": [
         "tr"
       ]
@@ -183,7 +183,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 25,
-      "source_sha256": "108a8baf2dc12862a730c330d594c2d52188ff72d4a18932e4e12d8cfca0d49b",
+      "source_sha256": "7971e5b178636afddcafad49e6931ca3c9bba5b9e55f914db077b8e3fe994a34",
       "required_text": [
         "tr"
       ]
@@ -199,7 +199,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 60,
-      "source_sha256": "9a18499aec1141b0d9f7f237e973a8c68e9510e16b047491edd8d9b9d186cc9a",
+      "source_sha256": "87c7132f6e3b730ac7cc64a5666f76c3f64498eb3aeb089e5478f1ec9b866591",
       "required_text": [
         "B3",
         "≤3",
@@ -209,7 +209,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 74,
-      "source_sha256": "f34e084c8ffb27b72384dd1fafa5be95455cb21f43e57f8bde81f8d40563b22b",
+      "source_sha256": "f0d80095259eea8384a81e9af31cf623f7d160410e7beea91f02dc2ec0698fc4",
       "required_text": [
         "tr"
       ]
@@ -217,7 +217,7 @@
     {
       "path": "science/heralded-converse.md",
       "index": 82,
-      "source_sha256": "0a4a8543300d5fff017b53001ce6baab1d6393924b820f5fa4fba529ad1bee6c",
+      "source_sha256": "aa4d150fa942dd84c82ff81c9d0ee0c559677ca50133d6fb1eefcb9619cf6ea0",
       "required_text": [
         "tr"
       ]
@@ -244,7 +244,7 @@
       "source_sha256": "28668486fc68c2ea6e4603fea45ccaecfb8848b86325516306e1ff37a5076874",
       "required_text": [
         "0<r<1",
-        "1+r"
+        "I+r"
       ]
     },
     {
@@ -292,7 +292,9 @@
       "index": 39,
       "source_sha256": "b9964af98d995d39d5ad4ec3335a6a8486f3289c47f422bad1fadf1940438d99",
       "required_text": [
-        "0<p<1"
+        "0<",
+        "p",
+        "<1"
       ]
     },
     {
