@@ -1,0 +1,41 @@
+{
+  "method": "Exact SymPy matrix equalities; Pauli-word sphere integration reconstructed independently of the compact formulas.",
+  "checks": {
+    "n3_success_degree0": true,
+    "n3_numerator_degree0": true,
+    "n3_success_degree1": true,
+    "n3_numerator_degree1": true,
+    "n3_success_degree2": true,
+    "n3_numerator_degree2": true,
+    "n3_success_degree3": true,
+    "n3_numerator_degree3": true,
+    "n3_pure_endpoint_witness_identity": true,
+    "n3_pure_endpoint_witness_positive": true,
+    "n3_pure_endpoint_witness_eigenvalues": {
+      "1/5": 5,
+      "0": 11
+    },
+    "n3_zero_success_boundary_example": {
+      "A": "-3",
+      "B": "3",
+      "C": "-15"
+    },
+    "n3_zero_success_boundary_example_coefficients": true,
+    "n4_success_degree0": true,
+    "n4_numerator_degree0": true,
+    "n4_success_degree1": true,
+    "n4_numerator_degree1": true,
+    "n4_success_degree2": true,
+    "n4_numerator_degree2": true,
+    "n4_success_degree3": true,
+    "n4_numerator_degree3": true,
+    "n4_success_degree4": true,
+    "n4_numerator_degree4": true,
+    "four_input_pauli_product": true,
+    "four_input_D_spectrum": {
+      "3": 8,
+      "-1": 24
+    }
+  },
+  "limits": "Checks coefficient identities and selected endpoint/operator spectra. It does not replace the analytic stabilizer-ray case proofs or constitute a literature priority check."
+}

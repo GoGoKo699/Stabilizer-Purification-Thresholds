@@ -1,0 +1,22 @@
+# Stabilizer Purification Thresholds
+
+This repository studies the minimum fixed input-copy budget for universal fidelity improvement of an unknown depolarized qubit under stabilizer processing. Four copies suffice with heralding; five are necessary and sufficient for an output on every run, over the explicit construction interval. Converse bounds apply across the entire noisy-input interval.
+
+## Authoritative routes
+
+- Start with science/README.md for the connected scientific account.
+- Use science/model-and-results.md for the exact task, accepted-map Choi cone, fidelity convention, success constraints, and theorem quantifiers.
+- Use science/constructions.md for the physical maps, conditional and deterministic gains, average-success tuning, and exact rational examples.
+- Use science/heralded-converse.md for the three-copy correlation inequality, sphere moments, and pure-endpoint witness.
+- Use science/deterministic-converse.md for the four-body stabilizer inequality and the trace-preserving converse.
+- Use science/interpretation.md for fixed versus expected copy costs and the distinction between output averages and individual measurement records.
+- Use references/related-work.md and references/bibliography.json for primary-source attribution and the precise comparison with prior work.
+- Use verification/README.md for executable checks and their tested scope.
+
+## Essential distinctions
+
+Fidelity means pure-target overlap, the square of root Uhlmann fidelity. The heralded Haar score is the ratio of averaged unnormalized overlap to averaged success. Success may depend on the unknown direction. A pointwise guarantee averages the protocol's accepted classical outcomes for each fixed direction; it does not guarantee improvement on every individual record.
+
+The minimum-copy result is an onset theorem over a nonzero noise interval, not a full polarization or fidelity/yield classification. The four-copy budget is per attempt; repetition consumes additional charged inputs. The fifth-copy fallback assumes identical independent source copies and ideal stabilizer processing.
+
+Credit the fixed-axis unanimity mechanism and Haar performance to Gendra et al. (2012), and preserve the rigorous two-copy theorem of He et al. (2026). The structural contribution is the matching three-copy heralded and four-copy deterministic converses and their resulting exact operational threshold.
