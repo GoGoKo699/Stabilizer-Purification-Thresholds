@@ -1,0 +1,87 @@
+{
+  "references": [
+    {
+      "id": "gendra2012",
+      "type": "article",
+      "authors": [
+        "Bernat Gendra",
+        "Elio Ronco-Bonvehi",
+        "John Calsamiglia",
+        "Ramon Muñoz-Tapia",
+        "Emilio Bagan"
+      ],
+      "title": "Beating noise with abstention in state estimation",
+      "year": 2012,
+      "journal": "New Journal of Physics",
+      "volume": "14",
+      "article": "105015",
+      "doi": "10.1088/1367-2630/14/10/105015",
+      "arxiv": "1205.5479",
+      "used_for": "Fixed-axis unanimity/abstention filter and accepted-data estimation fidelity; Section 3.2."
+    },
+    {
+      "id": "he2026nogo",
+      "type": "article",
+      "authors": [
+        "Keming He",
+        "Chengkai Zhu",
+        "Hongshun Yao",
+        "Jinguo Liu",
+        "Yinan Li",
+        "Xin Wang"
+      ],
+      "title": "No-Go Theorems for Universal Quantum State Purification via Classically Simulable Operations",
+      "year": 2026,
+      "journal": "Physical Review Letters",
+      "volume": "136",
+      "article": "090204",
+      "doi": "10.1103/bdw8-k91v",
+      "arxiv": "2504.10516v2",
+      "used_for": "Two-copy no-go; accepted-data Haar model and Choi-cone formulation; multi-copy numerical claim compared against arXiv v2.",
+      "version_scope": "Detailed equations and table comparison use arXiv v2; final published abstract inspected."
+    },
+    {
+      "id": "quair_code",
+      "type": "software",
+      "authors": [
+        "QuAIR"
+      ],
+      "title": "NonMagic-Purification-codes",
+      "url": "https://github.com/QuAIR/NonMagic-Purification-codes",
+      "commit": "b50cb1dba98399a1ea8b2ae3cb6bcacd69643ce0",
+      "file": "Non_magic_purification/universal_cspo_purification_depo_noise.m",
+      "file_blob": "0826ded38b0b2dff29a40768b90ba1fa2dd38101",
+      "used_for": "Read-only formulation and parameter comparison. Released universal script is configured for two inputs; no reproduction of multi-copy numerical runs."
+    },
+    {
+      "id": "he2026resource",
+      "type": "preprint",
+      "authors": [
+        "Keming He",
+        "Enji Xiong",
+        "Xin Wang"
+      ],
+      "title": "A Nonstabilizerness Resource Law for Universal Quantum State Purification",
+      "year": 2026,
+      "arxiv": "2607.08626v1",
+      "url": "https://arxiv.org/html/2607.08626v1",
+      "used_for": "Two-input resource-law scope; compatible with larger-copy gain."
+    },
+    {
+      "id": "seddon2019",
+      "type": "article",
+      "authors": [
+        "James R. Seddon",
+        "Earl T. Campbell"
+      ],
+      "title": "Quantifying magic for multi-qubit operations",
+      "year": 2019,
+      "journal": "Proceedings of the Royal Society A",
+      "volume": "475",
+      "article": "20190251",
+      "doi": "10.1098/rspa.2019.0251",
+      "arxiv": "1901.03322v2",
+      "used_for": "Theorem 3.1: Choi-state characterization of completely stabilizer-preserving channels."
+    }
+  ]
+}

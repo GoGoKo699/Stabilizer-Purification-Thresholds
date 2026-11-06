@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "checks": {
+    "six_accepted_operators_of_shape_2_by_16": true,
+    "fifty_four_fallback_operators_of_shape_2_by_32": true,
+    "accepted_effect_is_psd": true,
+    "accepted_effect_is_at_most_identity": true,
+    "five_input_effect_is_identity": true,
+    "return_first_effect_is_identity": true,
+    "effects_are_hermitian": true,
+    "direct_joint_map_formulas_agree": true,
+    "haar_formulas_agree": true,
+    "prescribed_success_formulas_agree": true,
+    "prescribed_success_effects_are_psd": true,
+    "prescribed_success_effects_are_at_most_identity": true,
+    "exact_symbolic_identities": true,
+    "exact_rational_witnesses": true
+  },
+  "configuration": {
+    "seed": 34316,
+    "random_directions": 16,
+    "canonical_directions": 26,
+    "total_directions": 42,
+    "r_values": [
+      0.0,
+      0.1,
+      0.3333333333333333,
+      0.45935897632757006,
+      0.45945897632757005,
+      0.45955897632757003,
+      0.7,
+      1.0
+    ],
+    "tolerance": 1e-11,
+    "numpy_version": "2.3.5",
+    "sympy_version": "1.14.0"
+  },
+  "physicality": {
+    "accepted_four": {
+      "kraus_count": 6,
+      "kraus_shape": [
+        2,
+        16
+      ],
+      "hermiticity_error": 0.0,
+      "minimum_effect_eigenvalue": -4.345642930731184e-17,
+      "maximum_effect_eigenvalue": 0.5,
+      "minimum_rejection_effect_eigenvalue": 0.5,
+      "identity_effect_error": 0.9166666666666667
+    },
+    "deterministic_five": {
+      "kraus_count": 54,
+      "kraus_shape": [
+        2,
+        32
+      ],
+      "hermiticity_error": 0.0,
+      "minimum_effect_eigenvalue": 1.0,
+      "maximum_effect_eigenvalue": 1.0000000000000009,
+      "minimum_rejection_effect_eigenvalue": -8.881784197001252e-16,
+      "identity_effect_error": 8.881784197001252e-16
+    },
+    "return_first_four": {
+      "kraus_count": 8,
+      "kraus_shape": [
+        2,
+        16
+      ],
+      "hermiticity_error": 0.0,
+      "minimum_effect_eigenvalue": 1.0,
+      "maximum_effect_eigenvalue": 1.0,
+      "minimum_rejection_effect_eigenvalue": 0.0,
+      "identity_effect_error": 0.0
+    }
+  },
+  "direct_joint_input_checks": {
+    "case_count": 336,
+    "maximum_errors": {
+      "accepted_probability": 3.3306690738754696e-16,
+      "accepted_fidelity": 2.220446049250313e-16,
+      "deterministic_fidelity": 5.551115123125783e-16,
+      "deterministic_trace": 1.1102230246251565e-15,
+      "fallback_density_matrix": 9.992094515660007e-16
+    },
+    "by_r": [
+      {
+        "r": 0.0,
+        "minimum_gain_over_tested_directions_four": -5.551115123125783e-17,
+        "minimum_gain_over_tested_directions_five": 0.0
+      },
+      {
+        "r": 0.1,
+        "minimum_gain_over_tested_directions_four": 0.015576627705580548,
+        "minimum_gain_over_tested_directions_five": 0.0019860416666664937
+      },
+      {
+        "r": 0.3333333333333333,
+        "minimum_gain_over_tested_directions_four": 0.02167414050822114,
+        "minimum_gain_over_tested_directions_five": 0.003315043438500087
+      },
+      {
+        "r": 0.45935897632757006,
+        "minimum_gain_over_tested_directions_four": 2.3698652533155062e-05,
+        "minimum_gain_over_tested_directions_five": 4.227154176694725e-06
+      },
+      {
+        "r": 0.45945897632757005,
+        "minimum_gain_over_tested_directions_four": -1.1102230246251565e-16,
+        "minimum_gain_over_tested_directions_five": -1.1102230246251565e-16
+      },
+      {
+        "r": 0.45955897632757003,
+        "minimum_gain_over_tested_directions_four": -2.3708183482629153e-05,
+        "minimum_gain_over_tested_directions_five": -4.229969066571471e-06
+      },
+      {
+        "r": 0.7,
+        "minimum_gain_over_tested_directions_four": -0.07945886235402899,
+        "minimum_gain_over_tested_directions_five": -0.019931041666666593
+      },
+      {
+        "r": 1.0,
+        "minimum_gain_over_tested_directions_four": -0.2142857142857143,
+        "minimum_gain_over_tested_directions_five": -0.08333333333333326
+      }
+    ]
+  },
+  "haar_checks": {
+    "quadrature_nodes": 48,
+    "maximum_errors": {
+      "accepted_probability": 2.7755575615628914e-16,
+      "accepted_haar_fidelity": 1.1102230246251565e-15,
+      "deterministic_haar_fidelity": 8.881784197001252e-16
+    },
+    "by_r": [
+      {
+        "r": 0.0,
+        "average_success": 0.1249999999999999,
+        "average_accepted_overlap_numerator": 0.06249999999999995,
+        "accepted_haar_fidelity": 0.5,
+        "deterministic_haar_fidelity": 0.5
+      },
+      {
+        "r": 0.1,
+        "average_success": 0.12750249999999994,
+        "average_accepted_overlap_numerator": 0.07213458333333335,
+        "accepted_haar_fidelity": 0.5657503447644822,
+        "deterministic_haar_fidelity": 0.5520082083333335
+      },
+      {
+        "r": 0.3333333333333333,
+        "average_success": 0.15308641975308632,
+        "average_accepted_overlap_numerator": 0.10617283950617286,
+        "accepted_haar_fidelity": 0.6935483870967748,
+        "deterministic_haar_fidelity": 0.6707818930041154
+      },
+      {
+        "r": 0.45935897632757006,
+        "average_success": 0.17886580484537398,
+        "average_accepted_overlap_numerator": 0.13255929936500113,
+        "accepted_haar_fidelity": 0.7411103507436543,
+        "deterministic_haar_fidelity": 0.7317240785992101
+      },
+      {
+        "r": 0.45945897632757005,
+        "average_success": 0.17888974490720222,
+        "average_accepted_overlap_numerator": 0.1325827685783738,
+        "accepted_haar_fidelity": 0.7411423647965409,
+        "deterministic_haar_fidelity": 0.7317711347532772
+      },
+      {
+        "r": 0.45955897632757003,
+        "average_success": 0.1789136906023377,
+        "average_accepted_overlap_numerator": 0.1326062419867775,
+        "accepted_haar_fidelity": 0.7411743703924515,
+        "deterministic_haar_fidelity": 0.7318181885972952
+      },
+      {
+        "r": 0.7,
+        "average_success": 0.2535025000000002,
+        "average_accepted_overlap_numerator": 0.20223458333333333,
+        "accepted_haar_fidelity": 0.7977616920280202,
+        "deterministic_haar_fidelity": 0.8367574583333339
+      },
+      {
+        "r": 1.0,
+        "average_success": 0.39999999999999974,
+        "average_accepted_overlap_numerator": 0.33333333333333326,
+        "accepted_haar_fidelity": 0.8333333333333337,
+        "deterministic_haar_fidelity": 0.9333333333333332
+      }
+    ]
+  },
+  "prescribed_average_success_checks": {
+    "case_count": 630,
+    "maximum_errors": {
+      "average_success": 4.440892098500626e-16,
+      "pointwise_success": 4.440892098500626e-16,
+      "conditional_fidelity": 2.220446049250313e-16
+    },
+    "minimum_effect_eigenvalue": -4.345642930731184e-17,
+    "maximum_effect_eigenvalue": 1.0,
+    "variants": [
+      {
+        "r": 0.1,
+        "requested_average_success": 0.06375125,
+        "method": "independent thinning",
+        "thinning_probability_or_filter_mixture_weight": 0.5,
+        "actual_average_success": 0.06375124999999998,
+        "minimum_gain_over_tested_directions": 0.015576627705580437
+      },
+      {
+        "r": 0.1,
+        "requested_average_success": 0.1275025,
+        "method": "independent thinning",
+        "thinning_probability_or_filter_mixture_weight": 1.0,
+        "actual_average_success": 0.12750249999999996,
+        "minimum_gain_over_tested_directions": 0.015576627705580548
+      },
+      {
+        "r": 0.1,
+        "requested_average_success": 0.56375125,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.49999999999999994,
+        "actual_average_success": 0.5637512499999999,
+        "minimum_gain_over_tested_directions": 0.0017614538538385238
+      },
+      {
+        "r": 0.1,
+        "requested_average_success": 0.95,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.05730675446061455,
+        "actual_average_success": 0.9499999999999997,
+        "minimum_gain_over_tested_directions": 0.00011980379975640165
+      },
+      {
+        "r": 0.1,
+        "requested_average_success": 1.0,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.0,
+        "actual_average_success": 0.9999999999999998,
+        "minimum_gain_over_tested_directions": -1.1102230246251565e-16
+      },
+      {
+        "r": 0.3333333333333333,
+        "requested_average_success": 0.07654320987654321,
+        "method": "independent thinning",
+        "thinning_probability_or_filter_mixture_weight": 0.5,
+        "actual_average_success": 0.07654320987654314,
+        "minimum_gain_over_tested_directions": 0.02167414050822114
+      },
+      {
+        "r": 0.3333333333333333,
+        "requested_average_success": 0.15308641975308643,
+        "method": "independent thinning",
+        "thinning_probability_or_filter_mixture_weight": 1.0,
+        "actual_average_success": 0.1530864197530863,
+        "minimum_gain_over_tested_directions": 0.02167414050822114
+      },
+      {
+        "r": 0.3333333333333333,
+        "requested_average_success": 0.5765432098765432,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.5000000000000001,
+        "actual_average_success": 0.5765432098765428,
+        "minimum_gain_over_tested_directions": 0.0028752726551655172
+      },
+      {
+        "r": 0.3333333333333333,
+        "requested_average_success": 0.95,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.059037900874635625,
+        "actual_average_success": 0.9499999999999995,
+        "minimum_gain_over_tested_directions": 0.00020601565719002846
+      },
+      {
+        "r": 0.3333333333333333,
+        "requested_average_success": 1.0,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.0,
+        "actual_average_success": 0.9999999999999996,
+        "minimum_gain_over_tested_directions": -2.220446049250313e-16
+      },
+      {
+        "r": 0.45935897632757006,
+        "requested_average_success": 0.08943290242268707,
+        "method": "independent thinning",
+        "thinning_probability_or_filter_mixture_weight": 0.5,
+        "actual_average_success": 0.08943290242268706,
+        "minimum_gain_over_tested_directions": 2.3698652533155062e-05
+      },
+      {
+        "r": 0.45935897632757006,
+        "requested_average_success": 0.17886580484537415,
+        "method": "independent thinning",
+        "thinning_probability_or_filter_mixture_weight": 1.0,
+        "actual_average_success": 0.17886580484537412,
+        "minimum_gain_over_tested_directions": 2.3698652533155062e-05
+      },
+      {
+        "r": 0.45935897632757006,
+        "requested_average_success": 0.5894329024226871,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.5,
+        "actual_average_success": 0.5894329024226872,
+        "minimum_gain_over_tested_directions": 3.587286092621156e-06
+      },
+      {
+        "r": 0.45935897632757006,
+        "requested_average_success": 0.95,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.06089138693168741,
+        "actual_average_success": 0.9500000000000004,
+        "minimum_gain_over_tested_directions": 2.7095309784730404e-07
+      },
+      {
+        "r": 0.45935897632757006,
+        "requested_average_success": 1.0,
+        "method": "mix with return-first channel",
+        "thinning_probability_or_filter_mixture_weight": 0.0,
+        "actual_average_success": 1.0000000000000004,
+        "minimum_gain_over_tested_directions": -1.1102230246251565e-16
+      }
+    ]
+  },
+  "exact_symbolic_checks": {
+    "identities": {
+      "conditional_gain": true,
+      "fallback_gain": true,
+      "haar_success_from_branch_moments": true,
+      "haar_fidelity_from_weighted_branch_moments": true,
+      "haar_deterministic_fidelity": true,
+      "thinning_preserves_conditional_fidelity": true,
+      "thinning_has_requested_average_success": true,
+      "mixture_has_requested_average_success": true,
+      "mixture_pointwise_gain_formula": true,
+      "mixture_probability_one_has_zero_gain": true,
+      "pointwise_boundary_polynomial": true
+    },
+    "rational_witness_at_r_one_third": {
+      "raw_fidelity": {
+        "computed": "2/3",
+        "expected": "2/3",
+        "matches": true
+      },
+      "minimum_success": {
+        "computed": "223/1458",
+        "expected": "223/1458",
+        "matches": true
+      },
+      "maximum_success": {
+        "computed": "149/972",
+        "expected": "149/972",
+        "matches": true
+      },
+      "worst_conditional_fidelity": {
+        "computed": "307/446",
+        "expected": "307/446",
+        "matches": true
+      },
+      "worst_conditional_gain": {
+        "computed": "29/1338",
+        "expected": "29/1338",
+        "matches": true
+      },
+      "haar_success": {
+        "computed": "62/405",
+        "expected": "62/405",
+        "matches": true
+      },
+      "haar_conditional_fidelity": {
+        "computed": "43/62",
+        "expected": "43/62",
+        "matches": true
+      },
+      "haar_conditional_gain": {
+        "computed": "5/186",
+        "expected": "5/186",
+        "matches": true
+      },
+      "worst_deterministic_gain": {
+        "computed": "29/8748",
+        "expected": "29/8748",
+        "matches": true
+      },
+      "haar_deterministic_gain": {
+        "computed": "1/243",
+        "expected": "1/243",
+        "matches": true
+      }
+    },
+    "expressions": {
+      "pointwise_success": "(r**4*s4 + 6*r**2 + 3)/24",
+      "conditional_fidelity": "(r**4*s4 + 4*r**3*s4 + 6*r**2 + 4*r + 3)/(2*(r**4*s4 + 6*r**2 + 3))",
+      "conditional_gain": "-r*(r**4*s4 - 4*r**2*s4 + 6*r**2 - 1)/(2*(r**4*s4 + 6*r**2 + 3))",
+      "deterministic_gain": "-r*(r**4*s4 - 4*r**2*s4 + 6*r**2 - 1)/48",
+      "haar_success": "(r**4 + 10*r**2 + 5)/40",
+      "haar_accepted_overlap_numerator": "(3*r**4 + 12*r**3 + 30*r**2 + 20*r + 15)/240",
+      "haar_conditional_fidelity": "(3*r**4 + 12*r**3 + 30*r**2 + 20*r + 15)/(6*(r**4 + 10*r**2 + 5))",
+      "haar_deterministic_fidelity": "-(3*r**5 + 18*r**3 - 125*r - 120)/240",
+      "thinning_probability_for_p_le_p0": "40*p/(r**4 + 10*r**2 + 5)",
+      "filter_mixture_weight_for_p_gt_p0": "40*(p - 1)/(r**4 + 10*r**2 - 35)",
+      "mixture_pointwise_success": "(5*p*r**4*s4 + 30*p*r**2 - 105*p - 5*r**4*s4 + 3*r**4)/(3*(r**4 + 10*r**2 - 35))",
+      "mixture_pointwise_gain": "-5*r*(p - 1)*(r**4*s4 - 4*r**2*s4 + 6*r**2 - 1)/(2*(5*p*r**4*s4 + 30*p*r**2 - 105*p - 5*r**4*s4 + 3*r**4))",
+      "mixture_haar_fidelity": "(3*p*r**4 + 12*p*r**3 + 30*p*r**2 - 100*p*r - 105*p + 3*r**5 + 18*r**3 - 5*r)/(6*p*(r**4 + 10*r**2 - 35))"
+    },
+    "pointwise_boundary": "sqrt(-7 + 2*sqrt(13))",
+    "pointwise_boundary_decimal": 0.45945897632757005,
+    "scope": "Exact algebra and moments; these checks do not prove the stabilizer-cone converse inequalities."
+  },
+  "interpretation": [
+    "All numerical maps are evaluated from actual 4-input or 5-input Kraus operators.",
+    "The five-input Kraus list covers every measurement record, including failure and the discarded fifth input on success.",
+    "Success-weighted Haar numerators are averaged before dividing; root fidelity is never substituted.",
+    "Finite directions and floating-point physicality checks are consistency evidence, not universal proofs.",
+    "The analytic theorem uses the S4 range and stabilizer-cone converse arguments in the science files.",
+    "The r=0 and r=1 endpoints and values above r_star are diagnostics, not claimed strict-gain points.",
+    "The prescribed-success check includes p=1, where the four-input mixture returns a raw input and has zero gain."
+  ]
+}
